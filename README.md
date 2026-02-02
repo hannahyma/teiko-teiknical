@@ -1,11 +1,11 @@
 This repository contains all work completed for the Teiko Teiknical assessment by Hannah Ma.
 
 Code structure:
-* `cell-counts.csv` - raw data provided for the assessment
-* `cell-counts.db` - SQLite database created as Part 1 of the analysis.
+* `cell-counts.csv` - raw data provided for the assessment.
+* `cell-counts.db` - SQLite database created for Part 1 of the analysis.
 * `dashboard.py` - Plotly dashboard containing visualizations and summaries of Part 2-4 of Bob's analysis.
 * `program.ipynb` - Python program written for Parts 1-4 of the analysis, without dashboard considerations.
-* `README.md` - This README
+* `README.md` - This README.
 
 Dependencies:
 numpy           2.3.3
@@ -20,4 +20,5 @@ I decided to segment the master datasheet into subject-level and sample-level da
 
 Dashboard:
 The only python platform I have experience developing dashboards in is with dash by plotly, so I chose to use it in this project. The dashboard is designed to run locally using the `dashboard.py` script.
+
 
